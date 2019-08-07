@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-size: 1rem;
+	background-color: white;
+	font-family: "Averta Demo";
+}
+.header img{
+	width: 100%;
+	height: 100%;
+}
+.pd{
+	width: 100%;
+	height: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+.menu{
+	width: 100%;
+	background-color: black;
+	height: auto;
+
+}
+
+.logo {
+	margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.logo>img{
+	width: 170px;
+    height: auto;
+
+}
+
+.bg-light{
+	background: none !important;
+	padding-left: 10%;
+} 
+.menu_right{
+	width: 100%;
+	height: auto;
+	margin-top: 2%;
+    margin-bottom: 2%;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.hover a:hover{
+	color: #ef2883 !important;
+} 
+.hover a:focus{
+	color: #ef2883 !important;
+} 
+.by{
+	margin-left: 2%;
+	border-radius: 30px;
+    background: linear-gradient(to left,#ef6f64,#fd9c7b);
+    color: white;
+    height: 50px;
+    width: 17%;
+    font-weight: bold;
+}
+.ava img{
+	width: 120%;
+	border-radius: 50%;
+}
+.navbar-light .navbar-toggler {
+    background: white;
+    color: white;
+}
+
+@media screen and (max-width: 991px){
+	.bg-light{
+	background: none !important;
+	padding-left: 50%;
+  }
+}
+
+.dropdown-item img{	
+	width: 30%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.header_botton{
+	width: 100%;
+	height: auto;
+}
+
+.map{
+	position: relative;
+	width: 100%;
+	height: auto;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 83%, 63% 100%, 35% 100%, 0 83%, 0 0);
+}
+.header_botton1{
+	top: 83%;
+	position: absolute;
+	width: 100%;
+	height: auto;
+
+}
